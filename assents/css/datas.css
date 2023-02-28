@@ -1,0 +1,67 @@
+.corpo{
+   display: flex;
+   padding-top: 20px;
+   text-align: center;
+   background-image: linear-gradient(to bottom, #304968, #255f7f, #087692, #008d9e, #00a4a4, #00a7ab, #00aab3, #00adba, #009cc6, #0087cf, #006fce, #4650bd);
+   width: 100vw;
+}
+
+.datas{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.primeira__banda{
+   width: 70vw;
+   height: 260px;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 1rem 1rem;
+   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.datas__evento{
+   font-family: var(--fonte-corpo);
+   color: var(--cor-texto);
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 35px;
+   padding: 20px 0;
+   width: 90vw;
+}
+
+.chamada__ingresso{
+   font-family: var(--fonte-corpo);
+   color: var(--cor-texto);
+   font-weight: 500;
+   padding: 20px 35px;
+   line-height: 32px;
+   font-size: 20px;
+   
+}
+
+
+.botao__ingresso{
+   display: flex;
+   padding: 20px 0;
+}
+.link__ingresso{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   background-color: var(--roxo-boreal);
+   color: var(--cor-texto);
+   text-decoration: none;
+   width: 312px;
+   padding: 12px 10px;
+   font-family: var(--fonte-corpo);
+   font-weight: 700;
+   font-size: 20px;
+   border-radius: 1rem;
+   box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.7);
+}
+
+.link__ingresso:hover{
+   background-color: var(--hover-botao);
+}

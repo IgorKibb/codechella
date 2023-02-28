@@ -1,0 +1,17 @@
+@import url("/assents/css/cabecalho.css");
+@import url("/assents/css/banner.css");
+@import url("/assents/css/datas.css");
+
+:root{
+   --roxo-boreal: #4650BD;
+   --cor-texto: #FFFFFF;
+   --fonte-titulo:'Calistoga';
+   --fonte-corpo: 'Raleway';
+   --hover-botao: #606ADA;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   width: 90vw;
+}
