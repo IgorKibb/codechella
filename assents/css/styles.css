@@ -1,6 +1,7 @@
 @import url("/assents/css/cabecalho.css");
 @import url("/assents/css/banner.css");
 @import url("/assents/css/datas.css");
+@import url("/assents/css/footer.css");
 
 :root{
    --roxo-boreal: #4650BD;
@@ -8,10 +9,15 @@
    --fonte-titulo:'Calistoga';
    --fonte-corpo: 'Raleway';
    --hover-botao: #606ADA;
+   --verde-escuro: #008364;
+
 }
 
 body{
    display: flex;
    flex-direction: column;
-   width: 90vw;
+   text-align: center;
+   background-image: linear-gradient(to bottom, #304968, #255f7f, #087692, #008d9e, #00a4a4, #00a7ab, #00aab3, #00adba, #009cc6, #0087cf, #006fce, #4650bd);
+   width: 100%;
+   /*width: 90vw;*/ /*não é recomendado colocar width para body*/
 }

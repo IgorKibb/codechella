@@ -3,13 +3,13 @@
    align-items: center;
    margin: 32px 24px;
    justify-content: space-between;
-   width: 80vw;
+   
 }
 .cabecalho{
    background: var(--roxo-boreal);
-   display: flex;
+   /*display: flex;*/
    position: relative;
-   width: 100vw;
+   width: 100%;
 }
 
 .cabecalho__menu-hamburguer{
@@ -30,8 +30,8 @@
    position: absolute;
    text-align:  center;
    top: 100%;
-   left: 47%;
-   width: 52vw;
+   left: 47.3%;
+   width: 52.6%;
    z-index: 1;
 }
 

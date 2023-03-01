@@ -4,7 +4,7 @@
 }
 
 .banner__boreal{
-   width: 100vw;
+   width: 100%;
    height: 260px;
    object-fit: cover;
    object-position: center;
@@ -19,5 +19,5 @@
    top: 110px;
    color: var(--cor-texto);
    text-shadow:  rgb(6, 6, 6) 1px 0 2px;
-   width: 100vw;
+   width: 100%;
 }
