@@ -34,7 +34,6 @@
    
 }
 
-
 .botao__ingresso{
    display: flex;
    padding: 20px 0;
@@ -100,7 +99,7 @@
    font-weight: 700;
    color: var(--cor-texto);
    line-height: 68px;
-   padding: 0 6px;
+   padding: 0 18px;
    margin: 16px 0;
 }
 
@@ -121,6 +120,53 @@
    color: var(--cor-texto);
    line-height: 57px;
    white-space: wrap;
-   padding: 0 50px;
+   padding: 0 10px;
    margin: 6px 0;
+}
+
+/*media screen de tablet*/
+@media screen and (min-width: 768px){
+   .primeira__banda{
+      width: 75%;
+      height: 320px;
+   }
+   .datas__evento{
+      width: 55%;
+   }
+   .chamada__ingresso{
+      width: 80%;
+   }
+   .linhas{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .linha-esquerda{
+      display: flex;
+      width: 90px;
+      height: 1px;
+      background-color: var(--verde-escuro);
+      margin-top: 76px;
+      margin-right: 15px;
+   }
+   .linha-direita{
+      display: flex;
+      width: 90px;
+      height: 1px;
+      background-color: var(--verde-escuro);
+      margin-top: 76px;
+      margin-left: 15px;
+   }
+   .lineup-bandas{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .principal-TD{
+      justify-content: center;
+      padding: 0 140px;
+   }
+   .lineup-bandas-quartas{
+      padding: 0 15px;
+   }
 }

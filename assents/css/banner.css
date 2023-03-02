@@ -21,3 +21,14 @@
    text-shadow:  rgb(6, 6, 6) 1px 0 2px;
    width: 100%;
 }
+
+/*media screen de tablet*/
+@media screen and (min-width: 768px){
+   .banner, .banner__boreal{
+      height: 384px;
+   }
+   .banner__chamada{
+      font-size: 64px;
+      font-weight: 400;
+   }
+}
