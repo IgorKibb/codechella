@@ -1,7 +1,16 @@
-@import url("/assents/css/cabecalho.css");
-@import url("/assents/css/banner.css");
-@import url("/assents/css/datas.css");
-@import url("/assents/css/footer.css");
+/*roots*/
+@import url("/assents/css/roots/cabecalho.css");
+@import url("/assents/css/roots/banner.css");
+@import url("/assents/css/roots/footer.css");
+
+/*paginaPrincipal*/
+@import url("/assents/css/paginaPrincipal/datas.css");
+
+/*aExperiencia*/
+@import url("/assents/css/aExperiencia/descricao.css");
+
+/*setores*/
+@import url("/assents/css/setores/setores.css");
 
 :root{
    --roxo-boreal: #4650BD;
