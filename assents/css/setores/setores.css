@@ -125,3 +125,62 @@
    line-height: 36px;
    font-size: 20px;
 }
+
+/*media screen de tablet*/
+@media screen and (min-width: 768px){
+   .detalhes-bloco{
+      font-size: 40px;
+   }
+   .mapa-seteores-img{
+      height: 600px;
+   }
+   .legenda{
+      margin-left: 200px;
+      font-size: 40px;
+   }
+   .lista-setores{
+      margin-left: 200px;
+   }
+}
+
+/*media screen desktop*/
+@media screen and (min-width: 1400px){
+   .setores-legendas{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 50px;
+      align-items: center;
+   }
+   .mapa-seteores-img{
+      height: 620px;
+      width: 620px;
+   }
+   .lista-setores{
+      margin-left: 0;
+   }
+   .legenda{
+      margin-left: 0px;
+   }
+   .detalhes-setores{
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      justify-content: space-around;
+   }
+   .detalhes-blocos{
+      width: 380px;
+   }
+   .detalhes-img{
+      width: 380px;
+   }
+   .bloco2{
+      margin-top: 160px;
+      margin-bottom: 50px;;
+   }
+   .texto-detalhes{
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+   }
+}
