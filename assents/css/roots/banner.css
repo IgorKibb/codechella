@@ -1,9 +1,9 @@
-.banner, .banner-experiencia, .banner-seteroes{
+.banner, .banner-experiencia, .banner-seteroes, .banner-informacoes{
    height: 260px;
    position: relative;
 }
 
-.banner__boreal, .banner__curticao, .banner__setor{
+.banner__boreal, .banner__curticao, .banner__setor, .banner__informacao{
    width: 100%;
    height: 260px;
    object-fit: cover;
@@ -11,7 +11,8 @@
    /*position: relative;*/
 }
 
-.banner__chamada, .banner__chamada-experiencia, .banner__chamada-seteroes{
+.banner__chamada, .banner__chamada-experiencia, .banner__chamada-seteroes,
+.banner__chamada-informacao{
    font-family: var(--fonte-titulo);
    font-size: 32px;
    text-align: center;
@@ -21,30 +22,33 @@
    text-shadow:  rgb(6, 6, 6) 1px 0 2px;
    width: 100%;
 }
-.banner__curticao, .banner__setor{
+.banner__curticao, .banner__setor, .banner__informacao{
    filter: opacity(0.6) drop-shadow(0 0 0 rgba(0, 4, 6, 1));
 }
 
 /*media screen de tablet*/
 @media screen and (min-width: 768px){
-   .banner, .banner__boreal, .banner-experiencia,.banner__curticao, .banner-seteroes, .banner__setor{
+   .banner, .banner__boreal, .banner-experiencia,.banner__curticao, 
+   .banner-seteroes, .banner__setor, .banner__informacao{
       height: 384px;
    }
-   .banner__chamada, .banner__chamada-experiencia, .banner__chamada-seteroes{
+   .banner__chamada, .banner__chamada-experiencia, .banner__chamada-seteroes,
+   .banner__informacao, .banner__chamada-informacao{
       font-size: 64px;
       font-weight: 400;
    }
-   .banner__chamada-experiencia{
+   .banner__chamada-experiencia, .banner__chamada-informacao{
       margin-top: 40px;
    }
 }
 /*media screen desktop*/
 @media screen and (min-width: 1400px){
-   .banner, .banner-experiencia, .banner-seteroes{
+   .banner, .banner-experiencia, .banner-seteroes, .banner-informacoes{
       display: flex;
       justify-content: center;
    }
-   .banner__chamada, .banner__chamada-experiencia, .banner__chamada-seteroes{
+   .banner__chamada, .banner__chamada-experiencia,
+   .banner__chamada-seteroes, .banner__chamada-informacao{
       width: 60%;
       justify-content: center;
       padding-top: 2%;;

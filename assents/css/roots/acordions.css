@@ -1,0 +1,41 @@
+.accordion{
+   width: 70%px;
+}
+.contentBx{
+   position: relative;
+   margin: 10px 20px;
+}
+
+.label{
+   position: relative;
+   padding: 10px;
+   background: #2694af;
+   color: #fff;
+   cursor: pointer;
+}
+
+.label::after{
+   content: '\2BC6';
+   position: absolute;
+   top: 50%;
+   right: 20px;
+   transform: translateY(-50%);
+   font-size: 1.5em;
+}
+
+.contentBx.active .label::after{
+   content: '\2BC5';
+}
+.content{
+   position: relative;
+   background: #b7e7f3;
+   height: 0;
+   overflow: hidden;
+   transition: 0.5s;
+   overflow-y: auto;
+}
+
+.contentBx.active .content{
+   height: 150px;
+   padding: 10px;
+}
