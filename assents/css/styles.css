@@ -12,6 +12,9 @@
 /*setores*/
 @import url("/assents/css/setores/setores.css");
 
+/*informacoes*/
+@import url("/assents/css/informacoes/informacoes.css");
+
 :root{
    --roxo-boreal: #4650BD;
    --cor-texto: #FFFFFF;
@@ -19,6 +22,8 @@
    --fonte-corpo: 'Raleway';
    --hover-botao: #606ADA;
    --verde-escuro: #008364;
+   --azul-claro: #C8DEEF;
+   --cinza: #444444;
 
 }
 
