@@ -15,6 +15,10 @@
 /*informacoes*/
 @import url("/assents/css/informacoes/informacoes.css");
 
+/*ingresso*/
+@import url("/assents/css/ingresso/ingresso.css");
+@import url("/assents/css/ingresso/ingressoGerado.css");
+
 :root{
    --roxo-boreal: #4650BD;
    --cor-texto: #FFFFFF;
